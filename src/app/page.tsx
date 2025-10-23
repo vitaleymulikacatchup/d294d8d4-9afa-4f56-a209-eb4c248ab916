@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -14,7 +14,7 @@ import SocialProofTwo from '@/components/sections/socialProof/SocialProofTwo';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import { Coffee, Award, BarChart3, DollarSign, Mail, MessageSquare, Star, Users } from "lucide-react";
+import { Coffee, Award, BarChart3, DollarSign, Mail, MessageSquare, Star, Users, Leaf, Flame, Twitter, Linkedin, Instagram } from "lucide-react";
 
 export default function Home() {
   return (
@@ -84,12 +84,12 @@ export default function Home() {
             {
               title: "Premium Beans",
               description: "We source only the finest coffee beans from sustainable farms around the world",
-              icon: "Leaf"
+              icon: Leaf
             },
             {
               title: "Fresh Roasted",
               description: "All our coffee is roasted in-house daily to guarantee maximum freshness and flavor",
-              icon: "Flame"
+              icon: Flame
             }
           ]}
         />
@@ -205,7 +205,7 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/3928260/pexels-photo-3928260.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/sarahcoffee"
                 }
               ]
@@ -218,7 +218,7 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/34164498/pexels-photo-34164498.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               socialLinks: [
                 {
-                  icon: "Twitter",
+                  icon: Twitter,
                   url: "https://twitter.com/mikecoffee"
                 }
               ]
@@ -231,7 +231,7 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/34400304/pexels-photo-34400304.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               socialLinks: [
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/emilyrodriguez"
                 }
               ]
