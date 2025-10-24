@@ -35,7 +35,7 @@ export default function Home() {
 
       <div id="hero" data-section="hero">
         <HeroBillboard
-          title="Freshly Roasted Coffee Every Day"
+          title="Yo yo"
           description="Experience the perfect blend of quality, taste, and atmosphere in our cozy coffee shop. From artisan espresso to specialty lattes."
           tag="Premium Coffee"
           tagIcon={Coffee}
